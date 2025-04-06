@@ -2,7 +2,11 @@
 
 A sophisticated movie recommendation system that helps users discover similar movies based on their preferences. Built with Python, Flask, and modern web technologies.
 
-![Home Cinema Screenshot](https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.2&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80)
+<div align="center">
+    <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.2&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80" alt="Home Cinema Screenshot" width="800"/>
+    <br>
+    <h2>🎬 Home Cinema</h2>
+</div>
 
 ## Features
 
