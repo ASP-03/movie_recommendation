@@ -1,0 +1,97 @@
+/* Basic resets and typography */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f0f4f8, #e1e8ee);
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+    color: #333;
+    line-height: 1.6;
+    padding-top: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2); /* Glassmorphism effect */
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Semi-transparent border */
+}
+
+.card-header {
+    background-color: rgba(255, 255, 255, 0.5); /* Lighter, semi-transparent header */
+    color: #6c757d; /* Beige color for text */
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-bottom: none;
+    border-radius: 0.5rem 0.5rem 0 0;
+    padding: 1rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.form-group label {
+    font-weight: 500;
+    color: #6c757d; /* Beige color for label */
+}
+
+.form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #d1cfcf; /* Beige border */
+    padding: 0.75rem 1.25rem;
+}
+
+.btn-primary {
+    background-color: #d1bfa7; /* Beige background */
+    border-color: #d1bfa7;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.5rem;
+}
+
+.btn-primary:hover {
+    background-color: #b69d7d; /* Darker beige */
+    border-color: #b69d7d;
+}
+
+.error-message {
+    color: #dc3545;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent list items */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #d1bfa7; /* Beige background */
+    color: #333;
+    border-radius: 0 0 0.5rem 0.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
